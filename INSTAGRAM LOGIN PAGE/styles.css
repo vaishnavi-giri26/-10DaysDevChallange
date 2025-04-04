@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    margin-block-start: 100px;
+}
+.instagram img{
+    display: flex;
+    width: 700px;
+    max-width: 70%;
+    height: 70vh;
+    float: left;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 200px;
+    height: 100px;
+    float: right;
+    padding-bottom: 10px;
+}
+.content input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content .log-in{
+    width: 300px;
+    height: 30px;
+    background-color: #0095f6;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #0095f6;
+    margin-top: 8px;
+}
+.line{
+    display: flex;
+}
+.hr1{
+    width: 100px;
+    color: #fff;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-left: -5px;
+}
+.or{
+    padding: 20px;
+}
+.hr2{
+    width: 100px;
+    color: #fff;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-left: 5px;
+}
+
+.facebook{
+    color: #0095f6;
+   font-size: 18px;
+   padding-bottom: 10px;
+}
+p{
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.app{
+    width: 150px;
+    height: 50px;
+    display: flexbox;
+    background-color: #000000;
+    color: #fff;
+}
+.app img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 5px;
+}
+.app p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+
