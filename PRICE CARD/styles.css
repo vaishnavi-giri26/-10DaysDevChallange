@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+.container{
+    background-color: #fff;
+    margin-inline: 250px;
+    margin-block: 200px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 10px rgba(79, 77, 77, 0.2);
+}
+span{
+    font-size: 19px;
+    color: gray;
+}
+.toggle{
+    height: 30px;
+    width: 60px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.switch{
+    height: 25px;
+    width: 25px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    left: 2px;
+}
+.toggle-checkbox{
+    display: none;
+}
+.toggle-container{
+    display: flex; 
+    justify-content: center;
+    margin-block-end: -130px;
+    margin-block-start: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 30px;
+    padding-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color:#212529;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+ .basic span{
+    line-height: 150px;
+    color: blue;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.basic{
+ border: 1px solid gray;
+ padding: 60px 100px;
+ border-radius: 5px;
+
+}
+.basic :hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 3px solid blue;
+} 
+.professional :hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 3px solid purple;
+} 
+.master:hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 3px solid green;
+} 
+p{
+    line-height: 30px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+.basic button{
+    background-color: blue;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+h3{
+    color: #6f42c1;
+    font-size: 30px;
+    text-align: center;
+}
+ .professional span{
+    line-height: 150px;
+    color: #6f42c1;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.professional{
+ border: 2px solid #6f42c1;
+ padding: 60px 100px;
+ border-radius: 5px;
+ background-color: #999;
+
+}
+.professional button{
+    background-color: #6f42c1;;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+h4{
+    color: #28a745;
+    font-size: 30px;
+    text-align: center;
+}
+ .master span{
+    line-height: 150px;
+    color:  #28a745;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.master{
+ border: 1px solid gray;
+ padding: 60px 100px;
+ border-radius: 5px;
+
+}
+.master button{
+    background-color:  #28a745;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
